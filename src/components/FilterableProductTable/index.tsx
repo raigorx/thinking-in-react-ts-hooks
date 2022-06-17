@@ -1,13 +1,13 @@
-import type {filterState} from './types';
+import type {States} from './types';
+
 import { SearchBar } from "../SearchBar"
 import { ProductTable } from "../ProductTable"
 import { useState } from "react"
 
 
-
 export function FilterableProductTable() {
-  const [filterText, setFilterText ] : filterState<string> = useState("")
-  const [inStockOnly, setInStockOnly]: filterState<boolean> = useState(false)
+  const [filterText, setFilterText ] : States['string'] = useState("")
+  const [inStockOnly, setInStockOnly]: States['boolean'] = useState(false)
   return (
     <>
       <div className="filterable-product-table">

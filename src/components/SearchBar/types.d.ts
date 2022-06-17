@@ -1,8 +1,8 @@
-import {filterState} from '../FilterableProductTable/types';
+import {States} from '../FilterableProductTable/types';
 
 export interface SearchBarProps {
-  filterText: filterState<string>[0]
-  setFilterText: filterState<string>[1]
-  inStockOnly: filterState<boolean>[0]
-  setInStockOnly: filterState<boolean>[1]
+  filterText: States['string'][0]
+  setFilterText: States['string'][1]
+  inStockOnly: States['boolean'][0]
+  setInStockOnly: States['boolean'][1]
 }

@@ -1,9 +1,9 @@
-import {filterState} from '../FilterableProductTable/types';
+import {States} from '../FilterableProductTable/types';
 import {productType} from '../../model/types'
 
 interface ProductTableProps {
-  filterText: filterState<string>[0]
-  inStockOnly: filterState<boolean>[0]
+  filterText: States['string'][0]
+  inStockOnly: States['boolean'][0]
 }
 
 export interface uniqueCategoryFunction {
@@ -11,5 +11,5 @@ export interface uniqueCategoryFunction {
 }
 
 export interface filterFunction {
-  (arg0: productType, arg1:filterState<string>[0], arg2: filterState<boolean>[0] ): boolean
+  (arg0: productType, arg1:States['string'][0], arg2: States['boolean'][0] ): boolean
 }
