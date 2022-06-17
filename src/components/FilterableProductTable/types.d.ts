@@ -1,0 +1,1 @@
+export type filterState<type> = [type, React.Dispatch<type>]

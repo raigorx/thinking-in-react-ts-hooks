@@ -25,3 +25,4 @@ yarn-error.log*
 #vscode extension local history
 /.history
 /.vscode
+/.hintrc
