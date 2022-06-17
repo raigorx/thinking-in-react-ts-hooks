@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/thinking-in-react-ts-hooks/static/css/main.073c9b0a.css",
+    "main.js": "/thinking-in-react-ts-hooks/static/js/main.4f5dde94.js",
+    "static/js/787.91d0bdca.chunk.js": "/thinking-in-react-ts-hooks/static/js/787.91d0bdca.chunk.js",
+    "index.html": "/thinking-in-react-ts-hooks/index.html",
+    "main.073c9b0a.css.map": "/thinking-in-react-ts-hooks/static/css/main.073c9b0a.css.map",
+    "main.4f5dde94.js.map": "/thinking-in-react-ts-hooks/static/js/main.4f5dde94.js.map",
+    "787.91d0bdca.chunk.js.map": "/thinking-in-react-ts-hooks/static/js/787.91d0bdca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.4f5dde94.js"
+  ]
+}
